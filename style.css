@@ -1,0 +1,96 @@
+/* Full page reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background image with transparency */
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("i.png") no-repeat center center/cover;
+    opacity: 0.25;          /* controls transparency */
+    z-index: -1;
+}
+
+/* Center content */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Heading */
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    margin-bottom: 25px;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(255,255,255,0.7);
+}
+
+/* Calculator */
+.calculator {
+    background: rgba(30, 30, 47, 0.95);
+    padding: 20px;
+    border-radius: 20px;
+    width: 320px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+}
+
+/* Display */
+#display {
+    width: 100%;
+    height: 60px;
+    font-size: 26px;
+    text-align: right;
+    border: none;
+    border-radius: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+    background: #f4f4f4;
+}
+
+/* Buttons layout */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+/* Buttons */
+button {
+    height: 55px;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    background: #2f2f48;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* Hover effect */
+button:hover {
+    background: #4e4eff;
+}
+
+/* Zero button */
+.zero {
+    grid-column: span 2;
+}
