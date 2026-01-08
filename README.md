@@ -125,8 +125,7 @@ The Smart Web Calculator project successfully demonstrates the use of HTML, CSS,
 ## 15. References
 
 * HTML, CSS, and JavaScript Documentation
-
-  <img width="1348" height="627" alt="Screenshot 2026-01-08 113037" src="https://github.com/user-attachments/assets/1984aadb-cfde-486f-8cc4-7d2787519f9d" />
-
 * GitHub Pages Documentation
 * Render Documentation
+
+   <img width="1348" height="627" alt="Screenshot 2026-01-08 113037" src="https://github.com/user-attachments/assets/1984aadb-cfde-486f-8cc4-7d2787519f9d" />
